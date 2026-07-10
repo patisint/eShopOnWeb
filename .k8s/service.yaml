@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  namespace: eshopwebonweb-user005
+  namespace: eshoponwebapp-user05
   name: webapp
   labels:
     app: sample-app
