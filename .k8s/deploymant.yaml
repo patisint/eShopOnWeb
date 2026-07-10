@@ -1,13 +1,10 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: eshoponwebapp-user05
-  
 ---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  namespace: eshoponwebapp-user05
   name: webapp
   labels:
     app: sample-app
