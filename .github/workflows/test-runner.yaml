@@ -1,13 +1,13 @@
 name: Test Runner
 on: workflow_dispatch
 jobs:
-    test-runner:
-      runs-on: 
-          - self-hosted
-          - docker
-          - javascript
-      steps:
-       - run: echo "test echo in first github runner"
-       - name: Checkout
-         uses: actions/checkout@v7.0.0 
-        
+  test-runner:
+    runs-on: 
+      - self-hosted
+      - docker
+      - javascript
+    steps:
+     - run: echo "Test echo in first github runner"
+     
+     - name: Checkout
+       uses: actions/checkout@v7.0.0
